@@ -16,3 +16,10 @@ If you'd like to use this yourself, here are the steps:
 ![Image of students at our booth at the club fair](club-fair-1.png)
 
 ![Another image of students at our booth at the club fair](club-fair-2.png)
+
+# UPA Hack Club
+
+This has been modified for use by the UPA Hack Club. All credit goes to the original creator - I'm only pushing my changes for use for future club fairs. 
+
+#### NOTE:
+This is already configured to run in replit, so just use that. 

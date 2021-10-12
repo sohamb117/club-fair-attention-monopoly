@@ -23,8 +23,13 @@ app.get('/', function(request, response) {
   response.sendFile(__dirname + '/views/index.html');
 });
 
+app.get('/form', function(request, response) {
+  response.sendFile(__dirname + '/views/form.html');
+});
+
 app.post('/twcolor', (req, res) => {
-  io.emit('message', {from: req.body.From, body: req.body.Body})
+  io.emit('message', {from: req.body.From, body: req.body.Body});
+  //res.end("Join the UPA Hack Club here!\n https://forms.gle/xjy3yRT8o79VTUTA9");
 })
 
 
